@@ -20,7 +20,7 @@
 - [📝 License](#license)
 
 
-# 📖 HELLO MICROVERSE <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 Portfolio is my second microverse project. I deigned a mobile first portfolio site using Html and CSS flex styling
 
