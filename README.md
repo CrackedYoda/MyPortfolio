@@ -30,27 +30,26 @@
 
 # 📖 [Hello Microverse] <a name="about-project"></a>
 
-A code setup designed to spot html and css errors.
+A portfolio website designed using html and css
 
 
 
-## 🛠 Built With Html,Css and Node<a name="built-with"></a>
+## 🛠 Built With Html and Css<a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 Html 
 css
-node
+
 
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application
 
-- **[Detect Html bugs]**
-- **[Detect CSS bugs]**
+
+- **[Show aquired skills]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -61,30 +60,46 @@ node
 
 
 
-- [Live Demo Link](https://github.com/CrackedYoda/Linters-microverse)
+- [Live Demo Link](https://github.com/CrackedYoda/MyPortfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
 To get a local copy up and running, follow these steps.
 
-Clone repository
+### Prerequisites
 
-To get a local copy up and running, follow these steps. Prerequisites
+In order to run this project you need:
 
-In order to run this project you need: Setup Node on local pc
+install node on your local PC
 
-Clone this repository to your desired folder
+### Setup
 
-Install this project with: Node.js
+Clone this repository to your desired folder:
 
-You can deploy this project using: git
+clone this repository
 
-<!-- AUTHORS -->
+### Install
+
+Install this project with:
+
+
+Node
+
+### Usage
+
+open index.html file from cloned repository
+
+
+### Deployment
+
+You can deploy this project using:
+
+
+github
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -92,9 +107,9 @@ You can deploy this project using: git
 
 👤 **Author1**
 
-GitHub: @Crackedyoda
-Twitter: @Crackedyoda
-LinkedIn: Nelson Akalia
+GitHub:[ @Crackedyoda](https://github.com/CrackedYoda)
+Twitter:[ @Crackedyoda](https://twitter.com/crackedYoda)
+LinkedIn: [Nelson Akalia](https://www.linkedin.com/in/nelson-akalia-51786222a/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,6 +160,6 @@ I would like to thank MicroverseINC and my coding partners for inspiring this pr
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
