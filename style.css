@@ -6,6 +6,8 @@ body
     margin-left: 5%;
     margin-right: 5%;
     background-image: url(shapes.svg);
+    cursor: pointer;
+    
 }
 @media (min-width: 375px) { 
     
@@ -15,8 +17,8 @@ body
 display: flex;
 justify-content: space-between;
 font-style: normal;
-font-size: 18px;
-line-height: 20px;
+font-size: 112.5%;
+line-height: 125%;
 text-align: center;
 background-color: white;
 color: #6070FF;
@@ -24,25 +26,25 @@ color: #6070FF;
 }
 
 .intro{
-    padding-top: 35px;
+    padding-top: 10%;
 }
     
 .yoda{
-    font-size: 40px;
+    font-size: 250%;
     color:#172B4D;
-    line-height: 52px;
+    line-height: 125%;
     
 }
 .intro-text{
     color: #344563;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 100%;
+    line-height: 150%;
 
 }
 .connect{
     color: #7F8CFF;
-    font-size: 16px;
+    font-size: 100%;
   
 }
 }
