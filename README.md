@@ -1,150 +1,133 @@
+
 <a name="readme-top"></a>
-
-
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
+- [⭐ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
-A code setup designed to spot html and css errors.
+Portfolio is my second microverse project. I designed a mobile first portfolio site using Html and CSS flex styling
 
-
-
-## 🛠 Built With Html,Css and Node<a name="built-with"></a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-Html 
-css
-node
-
-
-<!-- Features -->
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.org/">html</a></li>
+    <li><a href="https://css.org/">css</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application
-
-- **[Detect Html bugs]**
-- **[Detect CSS bugs]**
+- *Index Page*
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-
-- [Live Demo Link](https://github.com/CrackedYoda/Linters-microverse)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
 
-Clone repository
+- [ ] Clone the repo from here:
+  - https://github.com/CrackedYoda/MyPortfolio.git
 
-To get a local copy up and running, follow these steps. Prerequisites
+### Prerequisites
 
-In order to run this project you need: Setup Node on local pc
+In order to run this project you need:
 
-Clone this repository to your desired folder
-
-Install this project with: Node.js
-
-You can deploy this project using: git
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
+- You need a PC.
+- A web browser
 
 
+### Setup
 
-👤 **Author1**
+- Clone this repository from this link: 
+[Github](https://github.com/CrackedYoda/MyPortfolio.git)
 
-GitHub: @Crackedyoda
-Twitter: @Crackedyoda
-LinkedIn: Nelson Akalia
+### Usage
+
+-  Clone repository 
+
+-  Launch index.html with a web browser
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- CONTRIBUTING -->
+## 👥 Authors <a name="authors"></a>
+
+👤 *Author1*
+
+
+GitHub:[ @Crackedyoda](https://github.com/CrackedYoda)
+Twitter:[ @Crackedyoda](https://twitter.com/crackedYoda)
+LinkedIn: [Nelson Akalia](https://www.linkedin.com/in/nelson-akalia-51786222a/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- *Add About Page*
+- *Add Contact Page*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/CrackedYoda/MyPortfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐ Show your support <a name="support"></a>
 
-if this helps you please don't forget to leave a positive review
+If you like this project give it a ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
-I would like to thank MicroverseINC and my coding partners for inspiring this project
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[Javascript suppport?]**
-
-  - [NO]
-
+I would like to thank microverse and my code reveiwer for making this project possible
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/CrackedYoda/MyPortfolio/blob/master/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
