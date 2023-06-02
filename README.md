@@ -26,8 +26,10 @@ Portfolio is my second microverse project. I designed a mobile first portfolio s
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+Vscode
 
+### Tech Stack <a name="tech-stack"></a>
+Html and Css
 <details>
   <summary>Client</summary>
   <ul>
