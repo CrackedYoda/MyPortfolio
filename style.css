@@ -175,7 +175,6 @@ body {
   .language-list {
     list-style: none;
     padding-left: 0%;
-
   }
 
   .work {
@@ -203,7 +202,7 @@ body {
   .tonic {
     font-weight: bolder;
     margin-bottom: 0%;
-    font-style: normal ;
+    font-style: normal;
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
@@ -274,5 +273,4 @@ body {
     grid-column: 1;
     row-gap: 50px;
   }
-
 }
