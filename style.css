@@ -122,9 +122,9 @@ body {
     gap: 124.5px;
     border-color: #e5e5e5;
     border-style: solid;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
     margin-top: 7%;
   }
 
@@ -137,9 +137,9 @@ body {
     gap: 200px;
     border-color: #e5e5e5;
     border-style: solid;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
     margin-top: 7%;
   }
 
@@ -174,7 +174,7 @@ body {
   .grid-container {
     margin-right: 5%;
     margin-left: 5%;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     display: flex;
@@ -190,15 +190,15 @@ body {
 
   .tonic {
     font-weight: bolder;
-    margin-bottom: 0px;
+    margin-bottom: 0%;
   }
 
   .grid-list {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding-left: 0px;
-    margin: 0px;
+    padding-left: 0%;
+    margin: 0%;
   }
 
   .canopy-list {
@@ -227,7 +227,7 @@ body {
     font-size: 12px;
     line-height: 16px;
     gap: 15px;
-    padding-left: 0px;
+    padding-left: 0%;
     color: #6070ff;
   }
 
