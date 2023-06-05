@@ -250,7 +250,8 @@ body {
     border-radius: 8px;
     width: fit-content;
     box-sizing: border-box;
-    float: right;
+    float: left;
+    margin: 2px;
     padding-left: 15px;
   }
 
