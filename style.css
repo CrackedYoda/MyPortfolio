@@ -81,6 +81,7 @@ body {
 
   .about {
     width: 375px;
+    height: 1263px;
     background-color: white;
     margin-top: 15%;
     border-radius: 0 80px 0 0;
@@ -276,4 +277,24 @@ body {
     grid-column: 1;
     row-gap: 50px;
   }
+  .contact {
+    width: 375px;
+    height: 779px;
+    background-color: white;
+  }
+ .contact-container {
+  background-image: url(/images/Contact\ me.svg);
+  height: 779px;
+ }
+ .main-contact {
+ 
+  background-image: url(/images/contact\ form\ shapes-mobile.svg);
+  width: 265px;
+  height: 709.17px;
+  left: 153px;
+  top: 4652px;
+  
+  
+  
+ }
 }
