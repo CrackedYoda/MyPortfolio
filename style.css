@@ -278,23 +278,19 @@ body {
     row-gap: 50px;
   }
   .contact {
+    display: flex;
     width: 375px;
-    height: 779px;
     background-color: white;
+    background-image: url(/images/Contact\ me.svg);
+    height : 779px;
   }
  .contact-container {
-  background-image: url(/images/Contact\ me.svg);
-  height: 779px;
- }
- .main-contact {
- 
+  display: flex;
+  width: 222px;
+  justify-content: center;
   background-image: url(/images/contact\ form\ shapes-mobile.svg);
-  width: 265px;
-  height: 709.17px;
-  left: 153px;
-  top: 4652px;
-  
-  
-  
+  background-repeat: no-repeat;
+  margin-left: 41%;
+  margin-top: 5%;
  }
 }
