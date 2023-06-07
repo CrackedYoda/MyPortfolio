@@ -233,7 +233,7 @@
     <section class="form">
       <form
         method="post"
-        action="https://formspree.io/html/"
+        action="https://formspree.io/f/{form_id}"
         class="form-section"
       >
         <h2 class="co">Contact Me</h2>
@@ -250,12 +250,15 @@
           name="username"
           class="user"
           placeholder="Lorem Ipsum"
+          maxlength="30"
+          required
         />
         <input
           type="email"
           name="useremail"
           class="user"
           placeholder="loremipsum@gmail.com"
+          required
         />
 
         <textarea
@@ -264,6 +267,8 @@
           cols="30"
           rows="10"
           placeholder="Write your message here..."
+          maxlength="500"
+          required
         ></textarea>
         <input
           type="submit"
