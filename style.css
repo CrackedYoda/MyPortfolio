@@ -277,10 +277,12 @@ body {
     grid-column: 1;
     row-gap: 50px;
   }
+
   .form {
     background-color: white;
     width: 50px;
   }
+
   .form-section {
     display: flex;
     flex-direction: column;
@@ -295,10 +297,11 @@ body {
     background-position: right 55px;
     background-repeat: no-repeat;
     width: 375px;
-    height: 778px;
+    height: 820px;
   }
+
   .co {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bolder;
     font-size: 40px;
@@ -306,11 +309,12 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     margin-top: 25%;
   }
+
   .contact-text {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -319,13 +323,14 @@ body {
     color: #ebebff;
     margin-bottom: 60px;
   }
+
   .user {
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     width: 327px;
     height: 48px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
@@ -334,19 +339,53 @@ body {
     color: #172b4d;
     margin-bottom: 15px;
     padding-left: 16px;
-  } 
+  }
 
   #textarea {
     width: 327px;
     height: 170px;
-    background: #FFFFFF;
-    border: 1px solid #CFD8DC;
+    background: #fff;
+    border: 1px solid #cfd8dc;
     border-radius: 8px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     line-height: 24px;
     padding-left: 16px;
     padding-top: 15px;
   }
-  
+
+  .get-touch {
+    margin-top: 15px;
+    margin-right: 200px;
+    color: #6070ff;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    border: 1px solid #cfd8dc;
+    background-color: #fff;
+    width: 142px;
+    height: 48px;
+  }
+
+  .get-touch:hover {
+    font-family: "Poppins", sans-serif;
+    background-color: #6070ff;
+    color: #fff;
+    border: 1px solid white;
+  }
+
+  .get-touch:active {
+    background-color: #2230d2;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .get-touch:disabled {
+    background-color: white;
+    color: #5e6c84;
+    border: 1px solid #5e6c84;
+  }
 }
