@@ -352,6 +352,8 @@ body {
     line-height: 24px;
     padding-left: 16px;
     padding-top: 15px;
+    outline: none;
+    resize: none;
   }
 
   .get-touch {
