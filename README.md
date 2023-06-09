@@ -103,8 +103,10 @@ GitHub:[ @Afsheen](https://github.com/Afsheen96)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- *Add About Page*
-- *Add Contact Page*
+
+- Add Javascript.
+- Add more styling.
+- Add animation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
