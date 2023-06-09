@@ -22,7 +22,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-Portfolio is my second microverse project. I designed a mobile first portfolio site using Html and CSS flex styling
+This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,7 +40,10 @@ Html and Css
 
 ### Key Features <a name="key-features"></a>
 
-- *Index Page*
+- Use the Figma design for the project😊👌
+- Use the semantics elements💯
+- Use the linter for fixing errors .🚀
+- Use the flexbox to place the items 😃👍
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,6 +89,13 @@ In order to run this project you need:
 GitHub:[ @Crackedyoda](https://github.com/CrackedYoda)
 Twitter:[ @Crackedyoda](https://twitter.com/crackedYoda)
 LinkedIn: [Nelson Akalia](https://www.linkedin.com/in/nelson-akalia-51786222a/)
+
+
+👤 *Author2*
+
+
+GitHub:[ @Afsheen](https://github.com/Afsheen96)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
