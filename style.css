@@ -107,20 +107,36 @@ body {
   }
 
   .resume {
-    width: 150px;
-    height: 30px;
+    width: 162px;
+    height: 48px;
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
     font-size: 17px;
     line-height: 20px;
     display: flex;
     align-items: center;
-    letter-spacing: 0.03em;
+    background: white;
     color: #396df2;
     border: 2px solid #6070ff;
     border-radius: 8px;
     padding: 12px;
     gap: 10px;
+  }
+
+  .resume:hover {
+    background: #6070ff;
+    color: white;
+  }
+
+  .resume:disabled {
+    color: #5e6c84;
+    background-color: white;
+    border-color: #5e6c84;
+  }
+
+  .resume:active {
+    background: #2230d2;
+    color: white;
   }
 
   .language {
@@ -327,7 +343,7 @@ body {
     border-color: #5e6c84;
   }
 
-  .seeproject:visited {
+  .seeproject:active {
     background: #2230d2;
     color: white;
   }
@@ -764,6 +780,23 @@ body {
     .contact-text {
       width: 569px;
       height: 109px;
+    }
+
+    .resume {
+      width: 162px;
+      height: 48px;
+      font-family: "Poppins", sans-serif;
+      font-weight: bolder;
+      font-size: 17px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      background: white;
+      color: #396df2;
+      border: 2px solid #6070ff;
+      border-radius: 8px;
+      padding: 12px;
+      gap: 10px;
     }
   }
 }
