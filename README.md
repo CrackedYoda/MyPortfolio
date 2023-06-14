@@ -97,6 +97,7 @@ LinkedIn: [Nelson Akalia](https://www.linkedin.com/in/nelson-akalia-51786222a/)
 GitHub:[ @Afsheen](https://github.com/Afsheen96)
 
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -131,7 +132,7 @@ If you like this project give it a ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse and my code reveiwer for making this project possible
+I would like to thank microverse , my coding partners and my code reveiwer for making this project possible 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
