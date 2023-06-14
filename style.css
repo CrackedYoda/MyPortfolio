@@ -76,6 +76,10 @@ body {
     text-decoration: none;
   }
 
+  .logo {
+    color: black;
+  }
+
   .connect {
     color: #7f8cff;
     font-size: 100%;
