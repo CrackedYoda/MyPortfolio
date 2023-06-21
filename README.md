@@ -22,19 +22,21 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
+This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML,CSS and javascript.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 Vscode
 
 ### Tech Stack <a name="tech-stack"></a>
-Html and Css
+HTML,CSS and javascript
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://html.org/">html</a></li>
     <li><a href="https://css.org/">css</a></li>
+     <li><a href="https://javascript.org/">Javascript</a></li>
+    
   </ul>
 </details>
 
@@ -44,6 +46,7 @@ Html and Css
 - Use the semantics elements💯
 - Use the linter for fixing errors .🚀
 - Use the flexbox to place the items 😃👍
+- Use javascript to give functionality to the website
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
