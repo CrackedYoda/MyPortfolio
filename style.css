@@ -41,7 +41,7 @@ body {
     padding-left: 0;
     padding-right: 1px;
     text-align: unset;
-    position: absolute;
+    position: fixed;
   }
 
   .nav-list-items {
@@ -52,7 +52,7 @@ body {
 
   .navbar.active {
     padding-top: 22.41px;
-    height: 5350.8px;
+    height: 5275.8px;
     position: absolute;
     width: 100%;
     opacity: 0.9;

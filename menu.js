@@ -10,9 +10,6 @@ hamburger.addEventListener('click', () => {
   document.querySelector('.nav-bar').classList.toggle('activecolor');
   hamburger.classList.toggle('cancel');
   document.querySelector('.headline').classList.toggle('blur');
-  document.querySelector('.work').classList.toggle('blur');
-  document.querySelector('.about').classList.toggle('blur');
-  document.querySelector('.form').classList.toggle('blur');
   navlist.classList.toggle('activelist');
   document.querySelector('.logo').classList.toggle('inactive');
 });
@@ -51,3 +48,4 @@ about.addEventListener('click', () => {
   navlist.classList.remove('activelist');
   document.querySelector('.logo').classList.remove('inactive');
 });
+
