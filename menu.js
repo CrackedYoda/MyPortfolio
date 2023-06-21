@@ -22,23 +22,33 @@ portfolio.addEventListener('click', () => {
   hamburger.classList.remove('cancel');
   document.querySelector('.nav-bar').classList.remove('activecolor');
   document.querySelector('.headline').classList.remove('blur');
+  document.querySelector('.work').classList.remove('blur');
+  document.querySelector('.about').classList.remove('blur');
+  document.querySelector('.form').classList.remove('blur');
   navlist.classList.remove('activelist');
   document.querySelector('.logo').classList.remove('inactive');
 });
-about.addEventListener('click', () => {
-  navBar.classList.remove('active');
-  hamburger.classList.remove('cancel');
-  document.querySelector('.nav-bar').classList.remove('activecolor');
-  document.querySelector('.headline').classList.remove('blur');
-  navlist.classList.remove('activelist');
-  document.querySelector('.logo').classList.remove('inactive');
-});
-
 contact.addEventListener('click', () => {
   navBar.classList.remove('active');
   hamburger.classList.remove('cancel');
   document.querySelector('.nav-bar').classList.remove('activecolor');
   document.querySelector('.headline').classList.remove('blur');
+  document.querySelector('.work').classList.remove('blur');
+  document.querySelector('.about').classList.remove('blur');
+  document.querySelector('.form').classList.remove('blur');
   navlist.classList.remove('activelist');
   document.querySelector('.logo').classList.remove('inactive');
 });
+
+about.addEventListener('click', () => {
+  navBar.classList.remove('active');
+  hamburger.classList.remove('cancel');
+  document.querySelector('.nav-bar').classList.remove('activecolor');
+  document.querySelector('.headline').classList.remove('blur');
+  document.querySelector('.work').classList.remove('blur');
+  document.querySelector('.about').classList.remove('blur');
+  document.querySelector('.form').classList.remove('blur');
+  navlist.classList.remove('activelist');
+  document.querySelector('.logo').classList.remove('inactive');
+});
+
