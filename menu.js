@@ -48,4 +48,3 @@ about.addEventListener('click', () => {
   navlist.classList.remove('activelist');
   document.querySelector('.logo').classList.remove('inactive');
 });
-
