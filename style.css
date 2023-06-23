@@ -287,8 +287,17 @@ body {
   }
 
   .tonic {
-    font-weight: bolder;
+    font-weight: 700;
     margin-bottom: 3%;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+  .tonic.pop-up {
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
     font-style: normal;
     font-size: 32px;
     line-height: 44px;
@@ -301,6 +310,46 @@ body {
     gap: 20px;
     padding-left: 0%;
     margin: 0%;
+  }
+  .grid-list.pop-up {
+    margin-bottom: 20px;
+  }
+
+  .see-project {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .cancel-black {
+    width: 24px;
+    height: 24px;
+  }
+  .tonic-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4%;
+  }
+  .gridpicture1.desktop {
+    content: unset;
+    width: unset;
+    height: unset;
+    flex-shrink: 0;
+  }
+  .grid-list2.layout {
+    display: unset;
+    margin-top: unset;
+  }
+  .list-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .-grid-container.pop-up {
+    width: unset;
+    height: unset;
   }
 
   .canopy-list {
@@ -320,8 +369,9 @@ body {
   }
 
   .gridtext {
-    font-weight: 400;
-    color: #344563;
+    color: var(--neutrals-n-600, #344563);
+    font-size: 15px;
+    line-height: 24px;
   }
 
   .grid-container-text {
@@ -378,15 +428,21 @@ body {
     border: 1px solid #396df2;
     background-color: white;
     font-family: "Poppins", sans-serif;
+    display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 20x;
     padding: 12px;
+    padding-left: 14px;
     border-radius: 8px;
-    width: 126px;
     margin-top: 6%;
+    width: 126px;
+  }
+  .seeproject.pop-up {
+    width: unset;
   }
 
   .seeproject:hover {
@@ -651,6 +707,41 @@ body {
       row-gap: 7%;
     }
 
+    .-grid-container.pop-up {
+      display: flex;
+      align-items: start;
+      width: 1156px;
+      height: 1163px;
+      border-radius: 16px;
+      border: 1px solid var(--neutrals-n-30-l, #ebecf0);
+      background: var(--white, #fff);
+      box-shadow: 0px 48px 48px 0px rgba(37, 47, 137, 0.08);
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 20px;
+    }
+
+    .gridpicture1.desktop {
+      content: url(/images/Snapshoot\ Portfolio\ popup.svg);
+      flex-shrink: 0;
+    }
+    .tonic-header {
+      margin-bottom: 0;
+    }
+    .tonic.pop-up {
+      margin-bottom: 0;
+    }
+    .grid-list2.layout {
+      display: flex;
+      margin-top: 20px;
+      gap: 10px;
+    }
+    .list-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+    }
     .-grid-container {
       display: flex;
       flex-direction: row;
