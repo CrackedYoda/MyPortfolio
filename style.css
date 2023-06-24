@@ -347,10 +347,8 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .-grid-container.pop-up {
-    width: unset;
-    height: unset;
-  }
+ 
+  
 
   .canopy-list {
     list-style: none;
