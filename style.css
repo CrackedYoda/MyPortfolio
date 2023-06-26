@@ -25,24 +25,7 @@ body {
     display: none;
   }
 
-  .nav-list.activelist {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    color: white;
-    margin: 0;
-    padding-top: 70px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-    justify-content: start;
-    align-items: start;
-    padding-left: 0;
-    padding-right: 1px;
-    text-align: unset;
-    position: fixed;
-  }
+  
 
   .nav-list-items {
     padding-bottom: 20px;
