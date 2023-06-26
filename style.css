@@ -347,9 +347,13 @@ body {
     display: flex;
     flex-direction: column;
   }
- 
   
-
+ .-grid-container.pop-up {
+    width: unset;
+    height: unset;
+    position: absolute;
+  }
+  
   .canopy-list {
     list-style: none;
     font-weight: 600;
