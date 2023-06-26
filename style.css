@@ -294,6 +294,7 @@ body {
     line-height: 44px;
     color: #172b4d;
   }
+
   .tonic.pop-up {
     font-weight: 700;
     margin-bottom: 0;
@@ -311,6 +312,7 @@ body {
     padding-left: 0%;
     margin: 0%;
   }
+
   .grid-list.pop-up {
     margin-bottom: 20px;
   }
@@ -323,30 +325,36 @@ body {
     justify-content: center;
     margin-top: 10px;
   }
+
   .cancel-black {
     width: 24px;
     height: 24px;
   }
+
   .tonic-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 4%;
   }
+
   .gridpicture1.desktop {
     content: unset;
     width: unset;
     height: unset;
     flex-shrink: 0;
   }
+
   .grid-list2.layout {
     display: unset;
     margin-top: unset;
   }
+
   .list-wrap {
     display: flex;
     flex-direction: column;
   }
+
   .-grid-container.pop-up {
     width: unset;
     height: unset;
@@ -434,13 +442,14 @@ body {
     gap: 10px;
     font-weight: 500;
     font-size: 15px;
-    line-height: 20x;
+    line-height: 20px;
     padding: 12px;
     padding-left: 14px;
     border-radius: 8px;
     margin-top: 6%;
     width: 126px;
   }
+
   .seeproject.pop-up {
     width: unset;
   }
@@ -715,7 +724,7 @@ body {
       border-radius: 16px;
       border: 1px solid var(--neutrals-n-30-l, #ebecf0);
       background: var(--white, #fff);
-      box-shadow: 0px 48px 48px 0px rgba(37, 47, 137, 0.08);
+      box-shadow: 0 48px 48px 0 rgba(37, 47, 137, 0.08);
       padding-left: 24px;
       padding-right: 24px;
       padding-top: 20px;
@@ -725,23 +734,28 @@ body {
       content: url(/images/Snapshoot\ Portfolio\ popup.svg);
       flex-shrink: 0;
     }
+
     .tonic-header {
       margin-bottom: 0;
     }
+
     .tonic.pop-up {
       margin-bottom: 0;
     }
+
     .grid-list2.layout {
       display: flex;
       margin-top: 20px;
       gap: 10px;
     }
+
     .list-wrap {
       display: flex;
       flex-direction: column;
       align-items: start;
       justify-content: center;
     }
+
     .-grid-container {
       display: flex;
       flex-direction: row;
