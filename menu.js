@@ -4,47 +4,41 @@ const navlist = document.querySelector('.nav-list');
 const portfolio = document.getElementById('portfoliolink');
 const about = document.getElementById('aboutlink');
 const contact = document.getElementById('contactlink');
+const headline = document.querySelector('.headline');
+const mobilenavBar = document.querySelector('.nav-bar');
+const logo = document.querySelector('.logo');
 
 hamburger.addEventListener('click', () => {
   navBar.classList.toggle('active');
-  document.querySelector('.nav-bar').classList.toggle('activecolor');
+  mobilenavBar.classList.toggle('activecolor');
   hamburger.classList.toggle('cancel');
-  document.querySelector('.headline').classList.toggle('blur');
+  headline.classList.toggle('blur');
   navlist.classList.toggle('activelist');
-  document.querySelector('.logo').classList.toggle('inactive');
+  logo.classList.toggle('inactive');
 });
 
 portfolio.addEventListener('click', () => {
   navBar.classList.remove('active');
   hamburger.classList.remove('cancel');
-  document.querySelector('.nav-bar').classList.remove('activecolor');
-  document.querySelector('.headline').classList.remove('blur');
-  document.querySelector('.work').classList.remove('blur');
-  document.querySelector('.about').classList.remove('blur');
-  document.querySelector('.form').classList.remove('blur');
+  mobilenavBar.classList.remove('activecolor');
+  headline.classList.remove('blur');
   navlist.classList.remove('activelist');
-  document.querySelector('.logo').classList.remove('inactive');
+  logo.classList.remove('inactive');
 });
 contact.addEventListener('click', () => {
   navBar.classList.remove('active');
   hamburger.classList.remove('cancel');
-  document.querySelector('.nav-bar').classList.remove('activecolor');
-  document.querySelector('.headline').classList.remove('blur');
-  document.querySelector('.work').classList.remove('blur');
-  document.querySelector('.about').classList.remove('blur');
-  document.querySelector('.form').classList.remove('blur');
+  mobilenavBar.classList.remove('activecolor');
+  headline.classList.remove('blur');
   navlist.classList.remove('activelist');
-  document.querySelector('.logo').classList.remove('inactive');
+  logo.classList.remove('inactive');
 });
 
 about.addEventListener('click', () => {
   navBar.classList.remove('active');
   hamburger.classList.remove('cancel');
-  document.querySelector('.nav-bar').classList.remove('activecolor');
-  document.querySelector('.headline').classList.remove('blur');
-  document.querySelector('.work').classList.remove('blur');
-  document.querySelector('.about').classList.remove('blur');
-  document.querySelector('.form').classList.remove('blur');
+  mobilenavBar.classList.remove('activecolor');
+  headline.classList.remove('blur');
   navlist.classList.remove('activelist');
-  document.querySelector('.logo').classList.remove('inactive');
+  logo.classList.remove('inactive');
 });

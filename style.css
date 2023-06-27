@@ -74,6 +74,7 @@ body {
 
   .nav-bar.activecolor {
     background-color: #6070ff;
+    z-index: 3;
   }
 
   .container {
@@ -211,28 +212,13 @@ body {
     margin-top: 7%;
   }
 
-  .f-languages {
+  .f-languages .s-languages {
     display: flex;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     gap: 124.5px;
-    border-color: #e5e5e5;
-    border-style: solid;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    margin-top: 7%;
-  }
-
-  .s-languages {
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    gap: 200px;
     border-color: #e5e5e5;
     border-style: solid;
     border-top: 0;
@@ -287,8 +273,18 @@ body {
   }
 
   .tonic {
-    font-weight: bolder;
+    font-weight: 700;
     margin-bottom: 3%;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .tonic.pop-up {
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
     font-style: normal;
     font-size: 32px;
     line-height: 44px;
@@ -301,6 +297,53 @@ body {
     gap: 20px;
     padding-left: 0%;
     margin: 0%;
+  }
+
+  .grid-list.pop-up {
+    margin-bottom: 20px;
+  }
+
+  .see-project {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .cancel-black {
+    width: 24px;
+    height: 24px;
+  }
+
+  .tonic-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4%;
+  }
+
+  .gridpicture1.desktop {
+    content: unset;
+    width: unset;
+    height: unset;
+    flex-shrink: 0;
+  }
+
+  .grid-list2.layout {
+    display: unset;
+    margin-top: unset;
+  }
+
+  .list-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .-grid-container.pop-up {
+    width: unset;
+    height: unset;
   }
 
   .canopy-list {
@@ -320,8 +363,9 @@ body {
   }
 
   .gridtext {
-    font-weight: 400;
-    color: #344563;
+    color: var(--neutrals-n-600, #344563);
+    font-size: 15px;
+    line-height: 24px;
   }
 
   .grid-container-text {
@@ -378,15 +422,22 @@ body {
     border: 1px solid #396df2;
     background-color: white;
     font-family: "Poppins", sans-serif;
+    display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 20px;
     padding: 12px;
+    padding-left: 14px;
     border-radius: 8px;
-    width: 126px;
     margin-top: 6%;
+    width: 126px;
+  }
+
+  .seeproject.pop-up {
+    width: unset;
   }
 
   .seeproject:hover {
@@ -594,6 +645,47 @@ body {
       padding-bottom: 0;
     }
 
+    .nav-list.activelist {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      gap: 20px;
+      margin: unset;
+      padding-top: unset;
+      font-style: unset;
+      font-weight: 500px;
+      font-size: 15px;
+      line-height: 20px;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: unset;
+      padding-right: unset;
+      text-align: center;
+      position: unset;
+    }
+
+    .nav-bar.activecolor {
+      background-color: white;
+    }
+
+    .navbar.active {
+      padding-top: unset;
+      height: unset;
+      position: unset;
+      width: unset;
+      opacity: unset;
+      background-color: white;
+      z-index: unset;
+    }
+
+    .blur {
+      filter: unset;
+    }
+
+    .logo.inactive {
+      filter: unset;
+    }
+
     .headline {
       background-image: url(images/Header\ bg.svg);
       background-repeat: no-repeat;
@@ -649,6 +741,46 @@ body {
 
     .maincontainer {
       row-gap: 7%;
+    }
+
+    .-grid-container.pop-up {
+      display: flex;
+      align-items: start;
+      width: 1156px;
+      height: 1163px;
+      border-radius: 16px;
+      border: 1px solid var(--neutrals-n-30-l, #ebecf0);
+      background: var(--white, #fff);
+      box-shadow: 0 48px 48px 0 rgba(37, 47, 137, 0.08);
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 20px;
+    }
+
+    .gridpicture1.desktop {
+      content: url(/images/Snapshoot\ Portfolio\ popup.svg);
+      flex-shrink: 0;
+    }
+
+    .tonic-header {
+      margin-bottom: 0;
+    }
+
+    .tonic.pop-up {
+      margin-bottom: 0;
+    }
+
+    .grid-list2.layout {
+      display: flex;
+      margin-top: 20px;
+      gap: 10px;
+    }
+
+    .list-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
     }
 
     .-grid-container {
